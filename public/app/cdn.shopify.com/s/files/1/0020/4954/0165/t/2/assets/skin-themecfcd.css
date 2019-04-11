@@ -1,0 +1,109 @@
+/* Newsletter PopUp */
+.newsletter_popup_inner{	
+  background: #fff url("../../../files/slider-2_1024x1024eb71.jpg?v=1534138510") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.subscribe_area > h2 {
+  color: #ffffff;
+}
+.subscribe_area > p {
+  color: #ffffff;
+}
+.grid__item h1{
+	color: ;
+}
+.subscribe-form {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.subscribe-form::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ffffff !important;
+}
+.subscribe-form::-moz-placeholder { /* Firefox 19+ */
+  color: #ffffff !important;
+}
+.subscribe-form:-ms-input-placeholder { /* IE 10+ */
+  color: #ffffff !important;
+}
+.subscribe-form:placeholder { /* Firefox 18- */
+  color: #ffffff !important;
+}
+.newsletter-btn {
+  background: #7e4c4f none repeat scroll 0 0;
+  color: #fff;
+}
+.popup_off{
+  color: #7e4c4f;
+}
+.newsletter_popup_inner:before {
+  background: #000;
+  opacity: 0;
+}
+/* Breadcurmb Banner */
+.breadcrumbs {
+  background: #f6f6f6 url("../../../files/banner-2_18b97661-02df-4e6b-a31f-5c896b7de5c48607.jpg?v=1534142214") no-repeat scroll center center / cover;
+}
+.overlay-bg::before {
+  background: #f6f6f6 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.breadcrumbs-title {
+  color: #ffffff;
+}
+.breadcrumb-list > li > a {
+  color: #ffffff;
+}
+.breadcrumb-list > li::before {
+  color: #ffffff;
+}
+.breadcrumb-list > li {
+  color: #ffffff;
+}
+/* Top Bar Noticfication */
+
+.top-notification-bar {
+	background: #f3f3f3;
+	background: -moz-linear-gradient(left, #f3f3f3 0%, #666666 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #f3f3f3), color-stop(100%, #666666));
+	background: -webkit-linear-gradient(left, #f3f3f3 0%, #666666 100%);
+	background: -o-linear-gradient(left, #f3f3f3 0%, #666666 100%);
+	background: -ms-linear-gradient(left, #f3f3f3 0%, #666666 100%);
+  	background: linear-gradient(to right, #f3f3f3 0%, #666666 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#666666', GradientType=1 );
+}
+
+.notification-entry p a {
+  background-color: #666666;
+  border: 1px solid #666666;
+  color: #ffffff;
+}
+.notification-entry p a:hover {
+  background-color: #999;
+  border: 1px solid #999;
+  color: #fff;
+}
+.notification-close-btn {
+  background-color: ;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.notification-close-btn:hover{
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #232323;
+}
+
+.notification-entry p {
+  color: #fff;
+}
+.top-notification-bar::before {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}

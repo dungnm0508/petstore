@@ -1,0 +1,135 @@
+/* large desktop :1366px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .product-wrapper.wishlist-tile-container {
+  width: 33.33%;
+}
+ #quickViewModal .modal-dialog {
+  min-width: 980px;
+}
+  .account-curr-lang-wrap ul li ul {
+  left: auto;
+  right: 0;
+}
+  
+  
+  
+  
+  
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) { 
+  
+  .shop-sidebar {
+    margin-top: 40px;
+}
+  .shop-topbar-wrapper {
+  margin-top: 0;
+}
+  
+  .description-review-topbar a {
+  margin: 0 20px;
+}
+  
+  .description-review-topbar a::before {
+  right: -23px;
+}
+  
+    .product-wrapper.wishlist-tile-container {
+  width: 33.33%;
+}
+ 
+   #quickViewModal .modal-dialog {
+  min-width: 740px;
+} 
+ .qwick-view-right {
+  margin-top: 30px;
+} 
+  
+      .account-curr-lang-wrap ul li ul {
+  left: auto;
+  right: 0;
+}
+  .cate-padding-1 .single-food-content > h3 {
+  padding: 20px 45px;
+}
+  
+  
+  
+  
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) { 
+
+  .shop-sidebar {
+    margin-top: 40px;
+}
+  .shop-topbar-wrapper {
+  margin-top: 0;
+}
+  .breadcrumbs-inner h1.breadcrumbs-title {
+  font-size: 18px;
+  line-height: 20px;
+}
+  .product-description-wrapper h2 {
+  font-size: 20px;
+}
+  
+  .product-description-wrapper {
+    overflow: hidden;
+}
+  
+  .login-toggle-btn > a {
+  display: block;
+  float: none;
+  margin-top: 20px;
+}
+  
+    .product-wrapper.wishlist-tile-container {
+  width: 100%;
+}
+ .qwick-view-right {
+  margin-top: 30px;
+}
+    #quickViewModal .modal-dialog {
+  min-width: 300px;
+}
+  #quickViewModal .modal-content {
+    padding: 0;
+}
+ .slider-single-img {
+    display: block;
+}
+  .popup_off {
+  right: -6px;
+  top: -45px;
+}
+.product-description-wrapper .table td,.product-description-wrapper .table th {
+  padding: 0.45rem;
+}
+  
+  
+  
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  
+  
+  
+
+
+
+
+}
